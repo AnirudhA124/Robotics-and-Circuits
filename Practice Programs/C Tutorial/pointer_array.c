@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main(){
@@ -7,4 +8,15 @@ int main(){
     ptr++;
     printf("ptr= %u", ptr);
     return 0;
+=======
+#include <stdio.h>
+
+int main(){
+    int age=22;
+    int *ptr=&age;
+    printf("ptr= %u", ptr);
+    ptr++;
+    printf("ptr= %u", ptr);
+    return 0;
+>>>>>>> a85ebff (Update 1)
 }
