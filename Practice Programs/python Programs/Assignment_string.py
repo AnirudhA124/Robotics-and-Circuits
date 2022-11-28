@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fname = input("Enter file name: ")
 fh = open(fname)
 s=0
@@ -12,19 +11,4 @@ for line in fh:
     count=count+1
 
 av=s/(count)
-=======
-fname = input("Enter file name: ")
-fh = open(fname)
-s=0
-count=0
-for line in fh:
-    if line.startswith("X-DSPAM"):
-        x=line.find("0")
-        y=float(x)
-        #print(line[x:x+6])
-    s=s+y
-    count=count+1
-
-av=s/(count)
->>>>>>> a85ebff (Update 1)
 print("Average is:",av)
